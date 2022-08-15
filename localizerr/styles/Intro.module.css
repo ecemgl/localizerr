@@ -1,0 +1,51 @@
+.container{
+	width: 51%;
+	height: calc(100vh-50px);
+	display: flex;
+	align-items: center;
+	margin-left: 20%;
+
+
+}
+
+.card{
+	flex: 1;
+	padding: 50px;
+	padding-right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	position: relative;
+	text-align: center;
+	color: #18214D;
+	align-items: center;
+}
+
+.firstTitle{
+	font-size: 22px;
+
+}
+.secondTitle{
+	margin-top: 2%;
+	font-size: 72px;
+}
+.thirdTitle{
+	margin-top: 2%;
+	font-size: 20px;
+}
+
+.button{
+	border: none;
+	font-weight: bold;
+	background-color: white;
+	border-radius: 50%;
+	display: block;
+	margin-top: 3%;
+}
+.introSvgs{
+	margin-top: 6%;
+}
+.brandlist{
+	margin-top: 6%;
+
+}

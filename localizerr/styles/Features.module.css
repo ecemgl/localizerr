@@ -1,0 +1,90 @@
+.features{
+	margin-top: 20%;
+}
+.list{
+	margin-left: 6.62%;
+	margin-right: 44.32%;
+	margin-top: 8.99%;
+}
+.deneme{
+	display: inline;
+}
+.listItem{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 19px;
+	letter-spacing: -0.4px;
+	color:#3E4462;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	text-align: center;
+	width: 41%;
+	display: inline;
+	margin-right: 25%;
+	margin-top: 7%;
+	cursor: pointer;
+}
+
+
+.title{
+	text-align: center;
+	font-size: 56px;
+	letter-spacing: -2.4px;
+	font-style: normal;
+	color: #18214D;
+	font-weight: 600;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.description{
+	text-align: center;
+	font-size: 18px;
+	font-style: normal;
+	color: #3E4462;
+	font-weight: 400;
+	
+}
+.progress_line{
+	margin-top: 5%;
+	text-align: center;
+}
+
+.subtitle{
+	font-size: 22px;
+	font-weight: 600;
+	color: #18214D;
+	margin-top: 10%;
+}
+
+.first_line{
+	display: flex;
+}
+.second_line{
+	display: flex;
+
+}
+.group{
+	font-size: 22px;
+	margin-top: 7%;
+	margin-left: 40%;
+	display: flex;
+	align-items: center;
+	position: relative;
+
+}
+.icon{
+	position: absolute;
+	margin-left: 11%;
+}
+.oval{
+	margin-right: 5%;
+}
+
+@media  (max-width: 600px) {
+	.features{
+		margin-top: 90%;
+	}
+	
+}

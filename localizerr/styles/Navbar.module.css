@@ -1,0 +1,54 @@
+.container{
+	height: 50px;
+	color: #18214D;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 18px;
+	margin-top: 1.82%;
+
+}
+.logo{
+	margin-left: 7%;
+}
+.list{
+	position: absolute;
+	margin-left: 36.39%;
+	margin-right: 36.32%;
+	margin-top: 0.99%;
+}
+
+.listItem{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: -0.4px;
+	color: #18214D;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	display: inline;
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+.button{
+	margin-right: 10.36%;
+}
+
+
+@media  (max-width: 600px) {
+
+	.list{
+		width: 111%;
+		
+	}
+	
+	.button{
+		position: absolute;
+	margin-left: 36.39%;
+	margin-right: 36.32%;
+	margin-top: 0.99%;
+	}
+  }
