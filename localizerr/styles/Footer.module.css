@@ -78,3 +78,12 @@
 .icon{
 	margin-right: 12%;
 }
+
+@media  (max-width: 600px) {
+
+	.container{
+		margin-top: 110%;
+		position: absolute;
+		
+	}
+}

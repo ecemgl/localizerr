@@ -14,8 +14,8 @@
 .list{
 	position: absolute;
 	margin-left: 36.39%;
-	margin-right: 36.32%;
-	margin-top: 0.99%;
+	display: flex;
+	margin-top: 3.99%;
 }
 
 .listItem{
@@ -30,25 +30,33 @@
 	flex-grow: 0;
 	display: inline;
 	margin-right: 30px;
+
 	cursor: pointer;
 }
 
 .button{
 	margin-right: 10.36%;
+	margin-left: 50%;
 }
 
 
 @media  (max-width: 600px) {
 
 	.list{
-		width: 111%;
+		margin-top: 15%;
+		display: flex;
+		width: 123%;
 		
 	}
 	
 	.button{
-		position: absolute;
-	margin-left: 36.39%;
-	margin-right: 36.32%;
-	margin-top: 0.99%;
+		margin-left: 60%;
+		width: 100%;
+
+	}
+	.listItem{
+	
+		margin-left: 30px;
+		
 	}
   }

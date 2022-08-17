@@ -4,14 +4,17 @@ import styles from '../styles/Features.module.css'
 const Features = () => {
 	return(
 		<div className={styles.features}>
-			<h1 className={styles.title}>Localizerr ile lokal olun.</h1>
+			<div><h1 className={styles.title}>Localizerr ile lokal olun.</h1></div>
+			
 		
 			<div className={styles.container}>
 		
 
 			
 			<ul className={styles.list}>
+			<h1 className={styles.title_tmp}>Localizerr ile lokal olun.</h1>
 				<div className={styles.first_line}>
+				
 				<li className={styles.listItem}>
 					<div className={styles.group}>
 					<div className={styles.oval}><img src='./Oval.svg' /></div>

@@ -2,6 +2,7 @@
 	margin-top: 5%;
 	align-items: center;
 	text-align: center;
+
 	
 }
 .list{
@@ -74,5 +75,9 @@
 
 @media  (max-width: 600px) {
 
-	
+	.meeting{
+		margin-top: 5%;
+		position: absolute;
+		
+	}
 }

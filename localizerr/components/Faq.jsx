@@ -31,7 +31,7 @@ const Faq = () => {
 							</div>
 							<div className={selected === i ? styles.content.show : styles.content}>{item.answer}</div>
 
-							<div ><img src='./Divider.svg' alt='next' /></div>
+							<div ><img src='./Divider.svg' /></div>
 						</div>
 				))}
 			</div>

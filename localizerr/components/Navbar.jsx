@@ -25,11 +25,12 @@ const Navbar = () => {
 				<li className={styles.listItem}>
 					<Link href="/">İletişim</Link>
 				</li>
-
-			</ul>
-			<div className={styles.button}>
+				<div className={styles.button}>
 				<button type="button" class="btn btn-outline-primary btn-lg demo-iste-btn" >Demo İste</button>
 			</div>
+
+			</ul>
+		
 			
 		</div>
 	);

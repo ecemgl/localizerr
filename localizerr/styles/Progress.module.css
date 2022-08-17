@@ -1,5 +1,6 @@
 .progress{
 	margin-top: 10%;
+	
 }
 .list{
 	position: absolute;
@@ -61,5 +62,9 @@
 
 @media  (max-width: 600px) {
 
-	
+	.progress{
+		margin-bottom: 10%;
+		position: absolute;
+		
+	}
   }

@@ -4,8 +4,11 @@ import styles from '../styles/Progress.module.css'
 const Progress = () => {
 	return(
 		<div className={styles.progress}>
+			<div>
 			<h1 className={styles.title}>4 Kolay Adımda Ürünlerinizi Dünyaya Açın</h1>
 			<h1 className={styles.description}>Ürünlerinizi tüm dünyada test etmek ve satış yapmak için yapmanız gerekenler oldukça kolay. Temsilciniz ile birilikte tüm adımları tamamlayın.</h1>
+			</div>
+		
 
 			<div className={styles.container}>
 			<div className={styles.progress_line}>
