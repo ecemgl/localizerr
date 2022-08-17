@@ -68,3 +68,15 @@
 		
 	}
   }
+
+  @media  (min-width: 600px ) and (max-width: 1024px){
+
+	.progress{
+		display: grid;
+		
+	}
+	.listItem{
+		margin-left: 20%;
+		margin-right: 8%;
+	}
+}
